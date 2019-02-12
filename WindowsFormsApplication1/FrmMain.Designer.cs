@@ -84,6 +84,7 @@
             this.Controls.Add(this.SourceText);
             this.Name = "FrmMain";
             this.Text = "Simple Substitution";
+            this.Load += new System.EventHandler(this.FrmMain_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

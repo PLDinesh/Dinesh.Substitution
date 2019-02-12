@@ -38,5 +38,10 @@ namespace WindowsFormsApplication1
             Decrypt Dec = new Decrypt();
             SourceText.Text = Dec.GetTransformedString(ChiperText.Text);
         }
+
+        private void FrmMain_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
