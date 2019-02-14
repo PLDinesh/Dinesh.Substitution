@@ -43,5 +43,15 @@ namespace WindowsFormsApplication1
         {
 
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Clipboard.SetText(SourceText.Text);
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Clipboard.SetText(ChiperText.Text);
+        }
     }
 }
